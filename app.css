@@ -3,6 +3,8 @@ body {
   padding: 30px;
 }
 
+/* 8Bit Invaders */
+
 .title {
   font-size: 1rem;
 }
@@ -44,13 +46,9 @@ body {
   background-color: #f9dc42;
 }
 
-
-
-
 /* ==============================================
                     Buttons           
 ============================================== */
-
 
 .eightbit-btn {
   background: #92CD41;
@@ -66,13 +64,16 @@ body {
   color: white;
   box-shadow: inset -4px -4px 0px 0px #4AA52E;
 }
+
 .eightbit-btn:hover, .eightbit-btn:focus {
   background: #76c442;
   box-shadow: inset -6px -6px 0px 0px #4AA52E;
 }
+
 .eightbit-btn:active {
   box-shadow: inset 4px 4px 0px 0px #4AA52E;
 }
+
 .eightbit-btn:before, .eightbit-btn:after {
   content: "";
   position: absolute;
@@ -80,37 +81,45 @@ body {
   height: 100%;
   box-sizing: content-box;
 }
+
 .eightbit-btn:before {
   top: -6px;
   left: 0;
   border-top: 6px black solid;
   border-bottom: 6px black solid;
 }
+
 .eightbit-btn:after {
   left: -6px;
   top: 0;
   border-left: 6px black solid;
   border-right: 6px black solid;
 }
+
 .eightbit-btn--reset {
   background: #E76E55;
   box-shadow: inset -4px -4px 0px 0px #8C2022;
 }
+
 .eightbit-btn--reset:hover, .eightbit-btn--reset:focus {
   background: #CE372B;
   box-shadow: inset -6px -6px 0px 0px #8C2022;
 }
+
 .eightbit-btn--reset:active {
   box-shadow: inset 4px 4px 0px 0px #8C2022;
 }
+
 .eightbit-btn--proceed {
   background: #F7D51D;
   box-shadow: inset -4px -4px 0px 0px #E59400;
 }
+
 .eightbit-btn--proceed:hover, .eightbit-btn--proceed:focus {
   background: #F2C409;
   box-shadow: inset -6px -6px 0px 0px #E59400;
 }
+
 .eightbit-btn--proceed:active {
   box-shadow: inset 4px 4px 0px 0px #E59400;
 }

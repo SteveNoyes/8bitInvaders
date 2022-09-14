@@ -5,57 +5,60 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [Notes](#notes)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
 ## Overview
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./8bitInvader.jpg)
+
+![](./8bitInvaderMobile.jpg)
 
 ### Links
 
-- Source Code URL: [Github](https://github.com/SteveNoyes/faqAccordionCard)
-- Live Site URL: [Github Pages](https://stevenoyes.github.io/faqAccordionCard/)
+- Source Code URL: [Github](https://github.com/SteveNoyes/8bitInvaders)
+- Live Site URL: [Github Pages](https://stevenoyes.github.io/8bitInvaders/)
 
 ## My process
 
 ### Built with
-- Three JS
-- Grid
+- Vanilla JavaScript
+- CSS
+- HTML/Emmet
 - Mobile-first workflow
-- [SCSS](https://blog.logrocket.com/the-definitive-guide-to-scss/)
 
-### What I learned
+### Notes
 
-This has to be the thing I am most proud of. I know it's super simple but it got me thinking in different ways. I started thinking of things the computer could  do for me, like updating the date automatically. 
+retro buttons
 
 ```html
-<p class="text-center text-light">copyright &copy; <span class="dateUpdate"></span><script>document.write(new Date().getFullYear())</script> stevenNoyes All Lorem Reserved</p>
+  <a href="" class="eightbit-btn">Back</a>
+  <a href="index.html" class="eightbit-btn eightbit-btn--reset">Reset</a>
+  <a href="" class="eightbit-btn eightbit-btn--proceed">Home</a>
 ```
 ```css
-.example {
-  anything: something;
+.eightbit-btn {
+  background: #92CD41;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 2rem;
+  margin-right: 10px;
+  font-family: monospace;
+  text-decoration: none;
+  color: white;
+  box-shadow: inset -4px -4px 0px 0px #4AA52E;
 }
-```
-```js
-document.write(new Date().getFullYear())
 ```
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-### Useful resources
-
-- [Reset CSS](https://meyerweb.com/eric/tools/css/reset/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-- [Torus Geometry](https://threejs.org/docs/#api/en/geometries/TorusGeometry) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-
-- [Typical Breakpoints](https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp) - This is a great article which helps me figure out what CSS breakpoints are really going to.
+I started using the retro buttons because I want to build retro 8bit characters for the gameplay.
 
 ## Author
 
